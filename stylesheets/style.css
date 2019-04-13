@@ -1,65 +1,148 @@
 nav {
   background-color: #2081C3;
-  font-family: Arial, Helvetica, sans-serif ;
-  
-}
-
-.fixed-bottom {
+  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+ 
+ }
+ 
+ .fixed-bottom {
   background-color: #0A2C42;
-  font-family: Arial, Helvetica, sans-serif ;
-  
-}
-  
-.beer-image {
-  margin-top: 50px;
-  height: 400px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 330px;
-}
-
-.btn-primary {
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Raleway', sans-serif;
+ }
+ 
+ .btn-primary {
   display: block;
   margin-left: auto;
   margin-right: auto;
   background-color: #2081C3;
-}
-
-.btn-primary a {
+ }
+ 
+ .btn-primary a {
   color: white;
-}
-
-.beer-list {
-  list-style: none;
-}
-
-.tagline {
+ }
+ 
+ .tagline {
   color: lightgray;
+ }
+ 
+ body {
+  background-color: white;
+ }
+ 
+ .card {
+  background-color: lightgray;
+ }
+ 
+ .slide{
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 40px;
+ }
+ .card-img-top {
+  /*height: 11vw;*/
+  object-fit: cover;
 }
-
-.beer-description {
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .card-img-top {
+      height: 19vw;
+  }
 }
-.random-beer {
-  height: 350px;
-  width: 140px;
-  margin: 50px 50px 50px 200px;
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .card-img-top {
+      height: 16vw;
+  }
 }
-.random-beer-card {
-  margin-top: 50px;
-  
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .card-img-top {
+      height: 20vw;
+  }
 }
-body {
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) {
+  .card-img-top {
+      height: 20vw;
+  }
+}
+.card-deck{
+  width:1200px;
+  margin: auto;
+}
+.card-body{
   background-color: white;
 }
-.card {
-  background-color: lightgray;
+
+.BENEFITS {
+  width: 260px;
+  height: 65px;
+  font-family: Raleway;
+  font-size: 55px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #a60014;
+  margin: auto;
 }
-.slide{
-  width: 800px;
-  height: 400px;
-  /* margin: 0 auto; */
-  margin-top: 40px;
+.APPROVED-BY {
+  width: 400px;
+  height: 70px;
+  font-family: Raleway;
+  font-size: 56px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #a60014;
+  margin: auto;
+}
+
+.mailing-list {
+  width: 445px;
+  height: 57px;
+  border-radius: 20px;
+  box-shadow: 4px 7px 14px 0 #c1c3c9;
+  border-style: solid;
+  border-width: 1.5px;
+  border-image-source: linear-gradient(to right, #5f1717, #9e101b);
+  border-image-slice: 1;
+  background-image: #ffffff, linear-gradient(to right, #5f1717, #9e101b);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.JOIN-OUR-MAILING-LIS {
+  width: 296px;
+  height: 30px;
+  font-family: Raleway;
+  font-size: 25px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #a60014;
+  margin: auto
+}
+
+.Rectangle {
+  width: 445px;
+  height: 57px;
+  border-radius: 20px;
+  box-shadow: 4px 7px 14px 0 #c1c3c9;
+  border-style: solid;
+  border-width: 1.5px;
+  border-image-source: linear-gradient(to right, #5f1717, #9e101b);
+  border-image-slice: 1;
+  background-image: #ffffff, linear-gradient(to right, #5f1717, #9e101b);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  margin: auto;
 }
